@@ -2,8 +2,8 @@ package org.example.chat;
 
 import org.java_websocket.client.WebSocketClient;
 import org.java_websocket.handshake.ServerHandshake;
-import java.net.URI;
 
+import java.net.URI;
 import java.util.Scanner;
 
 public class Client extends WebSocketClient {
@@ -46,4 +46,3 @@ public class Client extends WebSocketClient {
         }
     }
 }
-

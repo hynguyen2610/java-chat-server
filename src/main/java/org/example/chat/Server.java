@@ -25,6 +25,8 @@ public class Server extends WebSocketServer {
     @Override
     public void onMessage(WebSocket conn, String message) {
         System.out.println("Message received: " + message);
+        // Send a response back to the client
+        conn.send("Server received: " + message);
     }
 
     @Override
